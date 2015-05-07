@@ -15,6 +15,13 @@
         },
         {
             "name": "CentOS",
+            "description": "Current v6 edge.",
+            "enabled": true,
+            "version": "6",
+            "arch_list": ["x86_64","i386"]
+        },
+        {
+            "name": "CentOS",
             "description": "Current v7 edge.",
             "enabled": true,
             "version": "7",
