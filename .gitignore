@@ -1,0 +1,13 @@
+.DS_Store
+.vagrant
+config.rb
+mirrors.json
+mirror.sh
+tmp/
+logs/
+scripts.d/
+conf.d/
+repos.d/*
+!/repos.d/7
+!/repos.d/6.5
+!/repos.d/6

@@ -1,0 +1,6 @@
+[epel]
+name=epel
+enabled=1
+gpgcheck=0
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-6&arch=i386
+

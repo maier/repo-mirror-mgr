@@ -1,0 +1,24 @@
+{
+    "mirror_path": "/MIRRORS",
+    "repo_conf_path": "repos.d",
+    "distro_conf_path": "conf.d",
+    "script_path": "scripts.d",
+    "log_path": "logs",
+    "run_script": "mirror.sh",
+    "distro_list": [
+        {
+            "name": "CentOS",
+            "description": "Frozen v6.5 - from centos vault.",
+            "enabled": true,
+            "version": "6.5",
+            "arch_list": ["x86_64","i386"]
+        },
+        {
+            "name": "CentOS",
+            "description": "Current v7 edge.",
+            "enabled": true,
+            "version": "7",
+            "arch_list": ["x86_64"]
+        }
+    ]
+}

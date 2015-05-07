@@ -1,0 +1,14 @@
+[puppetlabs-products]
+name=Puppet Labs Products El 6 - i386
+baseurl=http://yum.puppetlabs.com/el/6/products/i386
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-puppetlabs
+enabled=1
+gpgcheck=1
+
+[puppetlabs-deps]
+name=Puppet Labs Dependencies El 6 - i386
+baseurl=http://yum.puppetlabs.com/el/6/dependencies/i386
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-puppetlabs
+enabled=1
+gpgcheck=1
+

@@ -1,0 +1,12 @@
+[base]
+name=CentOS Base
+enabled=1
+gpgcheck=0
+baseurl=http://mirror.centos.org/centos/6/os/x86_64/
+
+[updates]
+name=CentOS Updates
+enabled=1
+gpgcheck=0
+baseurl=http://mirror.centos.org/centos/6/updates/x86_64/
+

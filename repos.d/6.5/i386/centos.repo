@@ -1,0 +1,12 @@
+[base]
+name=CentOS Base
+enabled=1
+gpgcheck=0
+baseurl=http://vault.centos.org/6.5/os/i386/
+
+[updates]
+name=CentOS Updates
+enabled=1
+gpgcheck=0
+baseurl=http://vault.centos.org/6.5/updates/i386/
+

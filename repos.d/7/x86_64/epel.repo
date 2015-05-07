@@ -1,0 +1,5 @@
+[epel]
+name=EPEL
+enabled=1
+gpgcheck=0
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-7&arch=x86_64
