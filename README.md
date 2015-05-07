@@ -15,7 +15,7 @@ Repositories:
 3. Copy `example.mirrors.json` to `mirrors.json`, edit and add/update the *distro_list* and any other applicable settings.
 4. Add repository-specific configurations in `repos.d/...`. These are the same as the files in `/etc/yum.repos.d/`. Note, use explicit architecture in the URLs (e.g. i386, x86_64, etc.).
 5. Start the VM using `vagrant up`
-6. Run the mirror script using `vagrant ssh -c ./run.sh`
+6. Run the mirror script using `vagrant ssh -c mirror/run.sh`
 
 ## Configuration
 
